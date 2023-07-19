@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, "Trebuchet MS", sans-serif ;
+    background: #fff url(./Imagens/bg.png);
+    margin: 15px 40px;
+}
+
+#container{
+    background: url(./Imagens/bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    min-width: 1080px;
+    max-width: 1480px;
+}
+
+/*Topo*/
+
+#topo{
+    position: relative;
+    background: #e0d28ae9;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+#topo .logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(./Imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+}
+
+#area-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(./Imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+    text-indent: -3000px;
+}
+
+/*Menu*/
+
+#area-menu{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: url(./Imagens/topo-imagem-lateral.png) no-repeat;
+    width: 676px;
+    height: 250px;
+    z-index: 2;
+}
+
+#conteudo-menu{
+    margin-left: 100px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+#menu-locais{
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.1em;
+    color: #8b8448;
+    width: 480px;
+}
+
+#menu-locais .locais a:link, #menu-locais .locais a:visited{
+    color: #6e6727;
+}
+
+#menu-locais .locais a:hover{
+    text-decoration: underline;
+}
+
+#menu-locais .locais{
+    line-height: 1.9em;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+#menu-locais a.link-reserva{
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 7px 10px;
+    float: right;
+}
+
+#menu-locais a:hover.link-reserva{
+    background-color: #fdf6be;
+    color: #6e6727;
+}
+
+#menu{
+    margin-top: 15px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+ul#navegacao{
+    width: 120px;
+}
+
+ul#navegacao a:link, ul#navegacao a:visited{
+   font-size: 1em;
+   padding: 5px; 
+   color: #6e6727;
+   line-height: 30px;
+}
+
+ul#navegacao a:hover{
+    background: #fdf6be;
+}
+
+img.depoimento{
+    position: absolute;
+    top: 67px;
+    right: 170px;
+    width: 226px;
+    height: 164px;
+}
+
+/*Conteudos*/
+
+#conteudos{
+    margin-top: 0px;
+    background-position: left;
+}
+
+#primario{
+    float: left;
+    width: 50%;
+    background: url(./Imagens/bg-area-principal.png)top left repeat-x;
+}
+
+.conteudo-primario{
+    margin: 11px auto;
+    width: 92%;
+}
+
+.conteudo-primario h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #7d7640;
+    font-size: 20px;
+}
+
+.conteudo-primario p{
+    margin-bottom: 20px;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+#secundario{
+    float: right;
+    width: 50%;
+    background: url(./Imagens/bg-area-lateral.png) top left repeat-x;
+}
+
+#lugares-do-hotel li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 20px;
+    margin-top: 12px;
+}
+
+#lugares-do-hotel li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+#lugares-do-hotel a{
+    color: black;
+}
+
+#lugares-do-hotel li a p{
+    color: #000;
+    font-size: 1em;
+}
+
+#lugares-do-hotel h4{
+    color: #615b2d;
+    font-size: 1.2em;
+    padding: 5px 0;
+    background: url(./Imagens/ornamento.png) no-repeat center right;
+
+}
+
+.img-lugares-hotel{
+    width: 150px;
+    float: left;
+    padding-right: 8px;
+}
+
+#rodape{
+    padding: 16px;
+    padding-top: 25px;
+    background: #fff url(./Imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
